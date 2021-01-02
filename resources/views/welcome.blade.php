@@ -24,7 +24,7 @@
             .wq
             {
                 display: block;
-                margin-right: 100px;
+                margin:25px;
                 float:left;
             }
         </style>
@@ -51,7 +51,7 @@
                 </div>
             @endif
         <div class="wq" style="width: 300px; word-break: break-all;">
-            <a href="{{ route('register') }}">
+            <a href="http://localhost:898/work/public/page1">
             <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:300px;height: 400px;">
             <h3>7 days ago</h3>
             </a>
@@ -59,7 +59,7 @@
             AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaa
         </div>
         <div class="wq" style="width: 300px; word-break: break-all;">
-            <a href="{{ route('register') }}">
+            <a href="http://localhost:898/work/public/page2">
             <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:300px;height: 400px;">
             <h3>7 days ago</h3>
             </a>
@@ -67,7 +67,7 @@
             AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaa
         </div>
         <div class="wq" style="width: 300px; word-break: break-all;">
-            <a href="{{ route('register') }}">
+            <a href="http://localhost:898/work/public/page3">
             <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:300px;height: 400px;">
             <h3>7 days ago</h3>
             </a>
@@ -75,7 +75,7 @@
             AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaa
         </div>
         <div class="wq" style="width: 300px; word-break: break-all;">
-            <a href="{{ route('register') }}">
+            <a href="http://localhost:898/work/public/page4">
             <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:300px;height: 400px;">
             <h3>7 days ago</h3>
             </a>

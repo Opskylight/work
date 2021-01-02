@@ -10,4 +10,8 @@
     </head>
     <body>
         <h1>偶速第一個新聞</h1>
+        <<div class="form-group">
+            <label for="ttt">發表你的評論</label>
+            <textarea id="ttt" class="form-control" name="in" rows="3"></textarea>
+        </div>
     </body>
