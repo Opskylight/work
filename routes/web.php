@@ -48,7 +48,7 @@ Route::get('/edit', function(){
 });
 
 Route::get('/add1', function(){
-    $post = new App\Models\Post;
+     $post = new App\Models\Post;
      $post->content = 'fffffF';
      $post->subject_id = 1;
      $post->user_id = 1;
