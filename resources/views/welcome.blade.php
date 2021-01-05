@@ -25,7 +25,6 @@
             {
                 display: block;
                 margin:25px;
-                float:left;
             }
         </style>
 
@@ -50,34 +49,10 @@
                     @endauth
                 </div>
             @endif
-        <div class="wq" style="width: 300px; word-break: break-all;">
+        <div class="wq" style= "width:100% ; height:40%; word-break: break-all;">
             <a href="http://localhost:898/work/public/page1">
-            <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:300px;height: 400px;">
-            <h3>7 days ago</h3>
-            </a>
-            <br>
-            AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaa
-        </div>
-        <div class="wq" style="width: 300px; word-break: break-all;">
-            <a href="http://localhost:898/work/public/page2">
-            <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:300px;height: 400px;">
-            <h3>7 days ago</h3>
-            </a>
-            <br>
-            AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaa
-        </div>
-        <div class="wq" style="width: 300px; word-break: break-all;">
-            <a href="http://localhost:898/work/public/page3">
-            <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:300px;height: 400px;">
-            <h3>7 days ago</h3>
-            </a>
-            <br>
-            AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaa
-        </div>
-        <div class="wq" style="width: 300px; word-break: break-all;">
-            <a href="http://localhost:898/work/public/page4">
-            <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:300px;height: 400px;">
-            <h3>7 days ago</h3>
+            <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:60%;height:20%;">
+            <h3>第一則新聞</h3>
             </a>
             <br>
             AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaa
