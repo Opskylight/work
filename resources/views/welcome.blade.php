@@ -1,62 +1,139 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE HTML>
+<!--
+	Full Motion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>天燈新聞</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body id="top">
+    
 
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}
-            .po
-            {
-                font-weight:bold;
-                font-size: 30px;
-            }
-            .lo
-            {
-                text-align: right;
-                float: right;
-                line-height: 40px;
-            }
-            .wq
-            {
-                display: block;
-                margin:25px;
-            }
-        </style>
-
-        <style>
-            body {
-                font-family: 'Nunito';
-            }
-        </style>
-    </head>
-    <body>
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+			<!-- Banner -->
+			<!--
+				To use a video as your background, set data-video to the name of your video without
+				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+				formats to work correctly.
+			-->
+				<section id="banner" data-video="images/banner">
+					<div class="inner">
+                    
+						<header>
+							<h1>天燈新聞</h1>
+							<p>我從事記者87年了<br>單槍匹馬從不靠別人<br>身體不行，依然堅持下去</p>
+						</header>
+                        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                        <h2><a href="{{ url('/home') }}">Home</a></h2>
                     @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+                        <h3><a href="{{ route('login') }}">Login</a></h3>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                            <h3><a href="{{ route('register') }}">Register</a></h3>
                         @endif
                     @endauth
                 </div>
             @endif
-        <div class="wq" style= "width:100% ; height:40%; word-break: break-all;">
-            <a href="http://localhost:898/work/public/page1">
-            <img src="https://i.ytimg.com/vi/DowamcBPDq4/maxresdefault.jpg" style="width:60%;height:20%;">
-            <h3>第一則新聞</h3>
-            </a>
-            <br>
-            AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaa
-        </div>
-        </div>
-    </body>
+						<a href="#main" class="more">Learn More</a>
+					</div>
+				</section>
+                
+			<!-- Main -->
+				<div id="main">
+					<div class="inner">
+
+					<!-- Boxes -->
+						<div class="thumbnails">
+
+							<div class="box">
+								<a href="https://youtu.be/ZsSXGdJQpnQ" class="image fit"><img src="https://images.chinatimes.com/newsphoto/2021-01-07/1024/20210107003562.jpg"width="400" height="200" alt="" /></a>
+								<div class="inner">
+									<h3>買麵女當街人車遭擄 搶匪要500只給400 爆笑對話曝光</h3>
+									<p>這種搶匪你看過？高雄市日前發生一起搶案，37歲鄒姓女子下車買麵未熄火，返回時竟有位男子坐在駕駛座上，鄒女見狀坐上副駕駛座欲阻止，歹徒則駕車在市區亂繞，期間男歹徒討價還價要錢，拿到錢後卻不乖乖停車，鄒女氣急一兇，歹徒卻開始語帶哽咽地說：「我怕你叫人抓我」，劇情超級荒誕。</p>
+									<a href="http://localhost:898/work-1/public/posts/create" class="button fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="https://garageplay.tw/images/newskino4_01.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>清純表情逐漸母湯！5部實用情慾電影 「單人運動」就這麼簡單</h3>
+									<p>荒野激戰、女女戀、主僕關係、師生戀、藝人與經紀人、羅曼史……你曾有過這些遐想嗎?情色大國日本「恥」度無下限，在2017年推出「羅曼情慾電影的45週年紀念企劃」，邀請名導打造5部愛慾無窮的無碼高清作，每10分鐘就想來一下，令許多觀眾深陷其中，無法自拔……</p>
+									<a href="https://garageplay.tw/kinostream/4" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="https://images.chinatimes.com/newsphoto/2020-12-29/1024/20201229003239.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>台中5寶爸爽約延上班原因曝光 竟為搬家不知遺照怎麼搬</h3>
+									<p>台中一名27歲5寶爸，去年耶誕節因車禍無法工作，一家七口生活陷入困頓，上網開價200元出售嬰兒車籌措女兒醫藥費，消息一出，善款物資不斷湧入，引發網友、社會局關注，且至少有兩位老闆願意提供工作機會，五寶爸後來決定兼兩份差，白天到五金材料行分類廢料，晚上到汽車美容洗車廠，</p>
+									<a href="https://www.chinatimes.com/realtimenews/20210109001098-260402?chdtv" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="https://images.chinatimes.com/newsphoto/2021-01-09/1024/20210109002511.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>辣妹低溫短衣短褲癱軟在地 老司機曝不單純：後面有人</h3>
+									<p>名男駕駛日前開車進停車場時，突然看到一名身材姣好的辣妹，全身癱軟在冰冷的入口地上，讓他一時不知所措，不知車子如何開進停車場，他把照片PO上網友後，掀起近萬名老司機朝聖，有人直呼背後不單純「沒看到旁邊的車裡面都坐著黑衣人，等待仙人跳嗎？」。</p>
+									<a href="https://www.chinatimes.com/realtimenews/20210109002484-260402?chdtv" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="https://images.chinatimes.com/newsphoto/2021-01-07/1024/20210107006841.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>火辣汽車女業務簽約照瘋傳 網嗨爆：兩盞大燈太閃</h3>
+									<p>一般來說，女性從事業務工作，或許會比較吃香，尤其外表若是長得漂亮、又有能力，對自身事業可說是一大優勢，最近網路瘋傳多張一名汽車女業務的照片，不僅臉蛋亮眼，身材更是性感毫無缺點，讓大票網友受不了，直呼「揪團買車了」。</p>
+									<a href="https://www.chinatimes.com/realtimenews/20210107006839-260402?chdtv" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="https://images.chinatimes.com/newsphoto/2021-01-09/1024/20210109001867.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>婆婆到家中狂拿衣物 大馬媳婦崩潰控扒手惡行：台灣人都這樣？</h3>
+									<p>一名馬來西亞籍人妻控訴，台灣的婆婆日前得知她懷孕後，以「補身體、見親家」為由到馬來西亞探望，結果竟不斷偷拿她和娘家的衣物，就連懷孕補品、內衣褲、名酒都偷走；丈夫得知後暴怒，直接要求母親回台灣，她也納悶問道「台灣的婆婆都是這樣嗎？」網友則解釋個人問題，和國籍無關。</p>
+									<a href="https://www.chinatimes.com/realtimenews/20210109001860-260402?chdtv" class="button fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<h2>Etiam veroeros lorem</h2>
+						<p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>
+
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>. Videos: <a href="http://coverr.co/">Coverr</a>.</p>
+					</div>
+				</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>

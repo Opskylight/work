@@ -90,7 +90,7 @@ class PostController extends Controller
         //
         $post->content = $request->input('content');
         $post->save();
-        return redirect(route('posts.show', ['post' => $post]));
+        return redirect('http://localhost:898/work-1/public/posts');
     }
 
     /**

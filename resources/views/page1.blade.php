@@ -18,11 +18,5 @@
         </style>
     </head>
     <body>
-        <h1>偶速第一個新聞</h1>
-        <div class="form-group">
-            <label for="ttt">發表你的評論</label>
-            <br>
-            <textarea id="ttt" class="form-control" name="in" rows="3"></textarea>
-            <input type="submit" value="送出" name="按鈕名稱" style="width:40px;height:20px;">
-        </div>
+
     </body>
